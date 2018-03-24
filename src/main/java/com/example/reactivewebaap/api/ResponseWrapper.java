@@ -4,6 +4,8 @@ public class ResponseWrapper {
 
     private String message;
 
+    private String someText;
+
     public ResponseWrapper(String message) {
         this.message = message;
     }
@@ -16,4 +18,11 @@ public class ResponseWrapper {
         this.message = message;
     }
 
+    public String getSomeText() {
+        return someText;
+    }
+
+    public void setSomeText(String someText) {
+        this.someText = someText;
+    }
 }
